@@ -1,0 +1,60 @@
+/*
+Primary: #BB4C02
+Secondary: #F5EBDE
+font-family: 'Roboto Slab', serif;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url(../images/background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    background-color: #F5EBDE;
+    color: black;
+}
+
+.card-img-top {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card-title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.accord {
+    background-color: #F5EBDE;
+}
+
+.btn-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.suggestion {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.pepper {
+    background-color: white;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+}

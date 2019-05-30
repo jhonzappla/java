@@ -1,120 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Don't forget your meta tag for the charset -->
-    <title>Go Fly a Kite</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto" rel="stylesheet">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <title>Winter is Cumin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="styleNavIndex.css">-->
+    <link rel="stylesheet" href="css/stylesheetIndex.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 </head>
 
-<body style="margin: 0;">
-    <header>
-    <div class="title">
-        <img src="images/kitenav.png" alt="logo" class="logo"/>
-        <div class="name">
-            Go Fly a Kite
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo1.png" class="logo" style="width:75px;"><b>Winter is Cumin</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log-in</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
         </div>
-    </div>
-    <nav class="navigation">
-        <a href="#deltas">Deltas</a> 
-        <a href="#diamonds">Diamonds</a>
-        <a href="#box">Box</a>
-        <a href="#specialty">Specialty</a>
-        <a href="#contact">Contact</a>
     </nav>
-    </header>
 
-  <div class="overview">
-    <div class="kite">
-        <img src="images/kite1.jpg" alt="delta pic" class="buttonimg"/>
-        <a href="#deltas" style="background-color: #6EA3D7;">Deltas</a>
+    <div class="title">
+        <h2>Featured</h2>
+    </div>
+    <div class="cover">
+        <a href="ProductScreen.html"><img src="images/image.png" alt="coverflow" class="coverflow" /></a>
     </div>
 
-    <div class="kite">
-        <img src="images/kite2.jpg" alt="diamond pic" class="buttonimg"/>
-        <a href="#diamonds" style="background-color: #6EA3D7;">Diamonds</a>
-    </div>
-    
-    <div class="kite">
-        <img src="images/kite4.jpg" alt="box pic" class="buttonimg"/>
-        <a href="#box" style="background-color: #6EA3D7;">Box</a>
-    </div>
-      
-    <div class="kite">
-        <img src="images/kite3.jpg" alt="specialty pic" class="buttonimg"/>
-        <a href="#specialty" style="background-color: #6EA3D7;">Specialty</a>
-    </div>
-  </div>
-
-  <section class="deltas">
-    <img src="images/kite1.jpg" alt="buttonimg" class="buttonimg"/>
-    <div class="text">
-      <h1>Delta Kites</h1>
-      <p>
-        Do not go gentle into that good night; Old age should burn and rave at close of day Rage, rage against the dying
-        of the light.
-      </p>
-    </div>
-  </section>
-
-  <section class="diamonds">
-    <div class="text1">
-      <h1>Diamond Kites</h1>
-      <p>
-        Do not go gentle into that good night; Old age should burn and rave at close of day Rage, rage against the dying
-        of the light.
-      </p>
-    </div>
-    <img src="images/kite2.jpg" alt="buttonimg1" class="buttonimg1"/>
-  </section>
-
-  <section class="box">
-    <img src="images/kite4.jpg" alt="buttonimg" class="buttonimg"/>
-    <div class="text">
-      <h1>Box Kites</h1>
-      <p>
-        Do not go gentle into that good night; Old age should burn and rave at close of day Rage, rage against the dying
-        of the light.
-      </p>
-    </div>
-  </section>
-
-  <section class="specialty">
-    <div class="text1">
-      <h1>Specialty Kites</h1>
-      <p>
-        Do not go gentle into that good night; Old age should burn and rave at close of day Rage, rage against the dying
-        of the light.
-      </p>
-    </div>
-    <img src="images/kite3.jpg" alt="buttonimg1" class="buttonimg1"/>
-  </section>
-
-  <section class="contact">
-    <h1>Contact Us</h1>
-    <form class="form">
-      <input type="text" id="firstname" placeholder="First Name">
-      <input type="text" id="lastname" placeholder="Last Name">
-      <input type="text" id="email" placeholder="Email">
-      <input type="text" id="phone" placeholder="Phone Number">
-      <textarea rows="10" cols="50" id="comment" placeholder="Comments"></textarea>
-        <div class="news">
-        <input type="checkbox" id="newsletter" name="newsletter" checked>
-        <label for="newsletter">Please sign me up for the Go Fly a Kite newsletter.</label>
+    <div class="categories">
+        <div class="mostpop">
+            Most Popular
+            <a href=""><img src="images/plus.png" alt="plus" class="plus" /></a>
         </div>
-      <a href="" style="background-color: #FFEFD5;color:#6B5ACD; ">Submit</a>
-    </form>
-  </section>
-
-  <section class="license">
-    <ul>
-        <li>Kite in the Sky by Karen licensed under CC-BY-SA 2.0</li>
-        <li>Art4 Celebtration of the Sky 2013 by Steve is licensed under CC-BY-SA 2.0</li>
-        <li>Pirates Be There by BArt licensed under CC-BY-SA 2.0</li>
-    </ul>
-  </section>
+        <div class="toprev">
+            Top Reviews
+            <a href=""><img src="images/plus.png" alt="plus" class="plus" /></a>
+        </div>
+        <div class="regions">
+            Regions
+            <a href=""><img src="images/plus.png" alt="plus" class="plus" /></a>
+        </div>
+    </div>
 
 </body>
 

@@ -1,0 +1,25 @@
+/*
+Primary: #BB4C02
+Secondary: #F5EBDE
+font-family: 'Roboto Slab', serif;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url(../images/background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    background-color: #F5EBDE;
+    color: black;
+}
